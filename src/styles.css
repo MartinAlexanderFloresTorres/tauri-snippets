@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: dark;
+}
+
+.scroll-1::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+.scroll-1::-webkit-scrollbar-thumb {
+  background: #8888887c;
+  border-radius: 10px;
+}
+
+.swal2-popup {
+  background: #171717 !important;
+  color: #fff !important;
+  border: 1px solid #424242 !important;
+}
